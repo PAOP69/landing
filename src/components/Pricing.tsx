@@ -1,3 +1,4 @@
+
 "use client";
 
 import { Button } from "@/components/ui/button";
@@ -7,7 +8,7 @@ import { Check, MapPin, Video } from "lucide-react";
 const rates = [
   {
     title: "Consulta Individual Presencial",
-    price: "$20",
+    price: "$25",
     modality: "Presencial",
     location: "Centro de Salud Padres Mercedarios",
     icon: MapPin,
@@ -20,7 +21,7 @@ const rates = [
   },
   {
     title: "Consulta Individual en Línea",
-    price: "$20",
+    price: "$25",
     modality: "Digital",
     location: "Plataforma segura de videollamada",
     icon: Video,
