@@ -2,9 +2,9 @@
   "placeholderImages": [
     {
       "id": "hero-pablo",
-      "description": "Ilustración profesional y minimalista de una silueta humana abstracta que representa bienestar emocional, equilibrio mental y acompañamiento terapéutico.",
-      "imageUrl": "https://picsum.photos/seed/therapy-balance/1200/800",
-      "imageHint": "mental health"
+      "description": "Psicología Clínica - Imagen representativa para la página de inicio",
+      "imageUrl": "https://picsum.photos/seed/psychology-clinic-main/1200/800",
+      "imageHint": "clinical psychology"
     },
     {
       "id": "pablo-portrait",

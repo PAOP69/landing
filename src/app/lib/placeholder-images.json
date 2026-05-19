@@ -3,20 +3,20 @@
   "placeholderImages": [
     {
       "id": "hero-pablo",
-      "description": "Ilustración profesional y minimalista de una silueta humana abstracta que representa bienestar emocional, equilibrio mental y acompañamiento terapéutico.",
-      "imageUrl": "https://picsum.photos/seed/therapy-balance/1200/800",
-      "imageHint": "mental health"
+      "description": "Psicología Clínica - Imagen representativa para la página de inicio",
+      "imageUrl": "https://picsum.photos/seed/psychology-clinic-main/1200/800",
+      "imageHint": "clinical psychology"
     },
     {
       "id": "pablo-portrait",
-      "description": "Retrato profesional del Psic. Pablo Ordóñez",
-      "imageUrl": "https://picsum.photos/seed/psychologist-man/600/800",
+      "description": "Retrato profesional del Psic. Pablo Ordóñez en entorno clínico",
+      "imageUrl": "https://picsum.photos/seed/professional-psychologist/600/800",
       "imageHint": "professional man"
     },
     {
       "id": "therapy-detail",
-      "description": "Detalle de espacio de conversación clínica",
-      "imageUrl": "https://picsum.photos/seed/clinical-space/800/600",
+      "description": "Detalle de espacio de consulta clínica minimalista y sereno",
+      "imageUrl": "https://picsum.photos/seed/clinical-serenity/800/600",
       "imageHint": "calm interior"
     }
   ]

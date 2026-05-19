@@ -45,12 +45,12 @@ export function Hero() {
             <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl">
               <div className="absolute inset-0 bg-primary/5 mix-blend-multiply" />
               <Image 
-                src={heroImg?.imageUrl || "https://picsum.photos/seed/therapy-balance/800/600"} 
-                alt="Psicología Clínica y Salud Mental - Psic. Pablo Ordóñez" 
+                src={heroImg?.imageUrl || "https://picsum.photos/seed/psychology-clinic-main/800/600"} 
+                alt="Psicología Clínica - Imagen página de inicio" 
                 width={800} 
                 height={600} 
                 className="object-cover w-full h-[550px] grayscale-[10%] hover:grayscale-0 transition-all duration-1000"
-                data-ai-hint="mental health"
+                data-ai-hint="clinical psychology"
               />
             </div>
             <div className="absolute -top-12 -right-12 w-48 h-48 bg-accent/5 rounded-full blur-3xl -z-10" />
