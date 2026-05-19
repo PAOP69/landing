@@ -53,10 +53,6 @@ export function Hero() {
                 data-ai-hint="mental health"
               />
             </div>
-            <div className="absolute -bottom-8 -left-8 bg-white/90 backdrop-blur-md p-6 rounded-2xl shadow-xl border border-white/50 max-w-[200px] z-20">
-              <p className="text-[10px] font-bold uppercase tracking-widest text-primary mb-1">Ubicación</p>
-              <p className="text-xs font-medium leading-relaxed">C. S. Padres Mercedarios</p>
-            </div>
             <div className="absolute -top-12 -right-12 w-48 h-48 bg-accent/5 rounded-full blur-3xl -z-10" />
           </div>
         </div>
