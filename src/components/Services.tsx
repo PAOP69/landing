@@ -44,7 +44,7 @@ export function Services() {
           <div className="max-w-2xl space-y-4">
             <h2 className="text-4xl lg:text-5xl font-playfair font-semibold">Enfoque Clínico Profesional</h2>
             <p className="text-muted-foreground text-lg font-light leading-relaxed">
-              Brindamos herramientas terapéuticas diseñadas para cada etapa de tu proceso, con un compromiso absoluto hacia tu salud mental.
+              Te acompaño con herramientas terapéuticas adaptadas a cada etapa de tu proceso, manteniendo un compromiso profesional y humano con tu bienestar emocional y salud mental.
             </p>
           </div>
           <div className="pb-2">
