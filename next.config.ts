@@ -1,9 +1,10 @@
 import type {NextConfig} from 'next';
 
 const nextConfig: NextConfig = {
-  output: 'export', // Habilita la exportación estática
+  output: 'export', // Habilita la exportación estática para GitHub Pages
+  trailingSlash: true, // Recomendado para evitar errores 404 en subrutas al recargar en GitHub Pages
   images: {
-    unoptimized: true, // Requerido para GitHub Pages ya que no tiene servidor de optimización de imágenes
+    unoptimized: true, // Requerido ya que GitHub Pages no tiene servidor de optimización de imágenes
     remotePatterns: [
       {
         protocol: 'https',
@@ -25,6 +26,9 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  // IMPORTANTE: Si tu sitio NO está en el dominio raíz (ej. usuario.github.io/mi-proyecto/),
+  // debes descomentar la siguiente línea y poner el nombre de tu repositorio:
+  // basePath: '/mi-proyecto',
   typescript: {
     ignoreBuildErrors: true,
   },
