@@ -1,28 +1,22 @@
 {
   "placeholderImages": [
     {
-      "id": "hero-clinic",
-      "description": "Espacio terapéutico acogedor y minimalista",
-      "imageUrl": "https://picsum.photos/seed/therapy-hero/1200/800",
-      "imageHint": "therapy office"
+      "id": "hero-pablo",
+      "description": "Consultorio moderno y minimalista con luz natural",
+      "imageUrl": "https://picsum.photos/seed/clinic-minimal/1200/800",
+      "imageHint": "minimalist office"
     },
     {
-      "id": "professional-portrait",
-      "description": "Retrato profesional de la psicóloga",
-      "imageUrl": "https://picsum.photos/seed/psychologist/600/800",
-      "imageHint": "professional woman"
+      "id": "pablo-portrait",
+      "description": "Retrato profesional del Psic. Pablo Ordóñez",
+      "imageUrl": "https://picsum.photos/seed/psychologist-man/600/800",
+      "imageHint": "professional man"
     },
     {
-      "id": "therapy-session",
-      "description": "Detalle de una sesión de terapia",
-      "imageUrl": "https://picsum.photos/seed/session/800/600",
-      "imageHint": "calm conversation"
-    },
-    {
-      "id": "nature-calm",
-      "description": "Imagen de naturaleza relajante",
-      "imageUrl": "https://picsum.photos/seed/nature/800/600",
-      "imageHint": "soft forest"
+      "id": "therapy-detail",
+      "description": "Detalle de espacio de conversación clínica",
+      "imageUrl": "https://picsum.photos/seed/clinical-space/800/600",
+      "imageHint": "calm interior"
     }
   ]
 }
