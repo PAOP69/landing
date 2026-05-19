@@ -1,3 +1,22 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-pablo",
+      "description": "Ilustración minimalista y elegante de salud mental, equilibrio y bienestar emocional",
+      "imageUrl": "https://picsum.photos/seed/psychology-harmony/1200/800",
+      "imageHint": "psychology abstract"
+    },
+    {
+      "id": "pablo-portrait",
+      "description": "Retrato profesional del Psic. Pablo Ordóñez en entorno clínico",
+      "imageUrl": "https://picsum.photos/seed/professional-psychologist/600/800",
+      "imageHint": "professional man"
+    },
+    {
+      "id": "therapy-detail",
+      "description": "Detalle de espacio de consulta clínica minimalista y sereno",
+      "imageUrl": "https://picsum.photos/seed/clinical-serenity/800/600",
+      "imageHint": "calm interior"
+    }
+  ]
 }

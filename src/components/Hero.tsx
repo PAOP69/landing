@@ -1,3 +1,4 @@
+
 "use client";
 
 import { Button } from "@/components/ui/button";
@@ -14,7 +15,9 @@ export function Hero() {
         <div className="flex flex-col lg:flex-row items-center gap-16">
           <div className="flex-1 space-y-8 animate-in fade-in slide-in-from-left duration-1000">
             <div className="inline-flex items-center gap-3 px-0 text-primary">
-              <Sparkles className="w-4 h-4" />
+              <div className="bg-primary/10 p-1.5 rounded-full">
+                <Sparkles className="w-4 h-4" />
+              </div>
               <span className="text-xs font-bold uppercase tracking-[0.3em]">Salud Mental y Bienestar</span>
             </div>
             
@@ -29,7 +32,7 @@ export function Hero() {
             </div>
 
             <div className="flex flex-wrap gap-6 pt-4">
-              <Button size="lg" className="rounded-full px-10 h-14 bg-primary text-white text-xs font-bold uppercase tracking-widest hover:scale-105 transition-all">
+              <Button size="lg" className="rounded-full px-10 h-14 bg-primary text-white text-xs font-bold uppercase tracking-widest shadow-xl shadow-primary/20 hover:scale-105 transition-all">
                 Agendar cita <ArrowRight className="ml-2 w-4 h-4" />
               </Button>
               <Button size="lg" variant="outline" className="rounded-full px-10 h-14 text-xs font-bold uppercase tracking-widest border-primary/20 hover:bg-white transition-all">
@@ -42,18 +45,20 @@ export function Hero() {
             <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl">
               <div className="absolute inset-0 bg-primary/5 mix-blend-multiply" />
               <Image 
-                src={heroImg?.imageUrl || "https://picsum.photos/seed/hero/800/600"} 
-                alt="Psicología Clínica Pablo Ordóñez" 
+                src={heroImg?.imageUrl || "https://picsum.photos/seed/psychology-harmony/800/600"} 
+                alt="Salud Mental y Bienestar - Psicología Clínica" 
                 width={800} 
                 height={600} 
                 className="object-cover w-full h-[550px] grayscale-[20%] hover:grayscale-0 transition-all duration-1000"
-                data-ai-hint="minimalist office"
+                data-ai-hint="psychology abstract"
               />
             </div>
             <div className="absolute -bottom-8 -left-8 bg-white/90 backdrop-blur-md p-6 rounded-2xl shadow-xl border border-white/50 max-w-[200px] z-20">
               <p className="text-[10px] font-bold uppercase tracking-widest text-primary mb-1">Ubicación</p>
               <p className="text-xs font-medium leading-relaxed">C. S. Padres Mercedarios</p>
             </div>
+            {/* Elemento decorativo sutil para reforzar el estilo editorial */}
+            <div className="absolute -top-12 -right-12 w-48 h-48 bg-accent/5 rounded-full blur-3xl -z-10" />
           </div>
         </div>
       </div>
