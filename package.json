@@ -8,7 +8,7 @@
     "genkit:dev": "genkit start -- tsx src/ai/dev.ts",
     "genkit:watch": "genkit start -- tsx --watch src/ai/dev.ts",
     "build": "next build",
-    "export": "next build && rm -rf docs && mv out docs && touch docs/.nojekyll",
+    "export": "NEXT_PUBLIC_EXPORT=true next build && rm -rf docs && mv out docs && touch docs/.nojekyll",
     "predeploy": "npm run export",
     "deploy": "gh-pages -d docs -t true",
     "start": "next start",

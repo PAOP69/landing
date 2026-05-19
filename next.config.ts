@@ -1,11 +1,15 @@
 import type {NextConfig} from 'next';
 
+const isExport = process.env.NEXT_PUBLIC_EXPORT === 'true';
+
 const nextConfig: NextConfig = {
   /* 
-   * NOTA: 'output: export' ha sido desactivado porque entra en conflicto con las funciones de IA (Server Actions).
-   * Para desplegar en GitHub Pages, recuerda que las funciones de IA no estarán disponibles.
+   * Modo dinámico:
+   * Si ejecutamos 'npm run export', se activa el modo estático y la subruta.
+   * En desarrollo (Firebase Studio), funciona de forma estándar para evitar errores.
    */
-  // output: 'export', 
+  output: isExport ? 'export' : undefined,
+  basePath: isExport ? '/landing' : '',
   
   trailingSlash: true,
   images: {
@@ -31,12 +35,6 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-  
-  /*
-   * Si necesitas desplegar en una subruta de GitHub, descomenta la siguiente línea.
-   * En Firebase Studio, dejarlo como '/' (o comentado) evita errores en el previsualizador.
-   */
-  // basePath: '/landing',
   
   typescript: {
     ignoreBuildErrors: true,
