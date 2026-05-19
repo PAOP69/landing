@@ -1,0 +1,29 @@
+
+{
+  "placeholderImages": [
+    {
+      "id": "hero-student",
+      "description": "Student studying in a modern environment",
+      "imageUrl": "https://picsum.photos/seed/edu1/800/600",
+      "imageHint": "student studying"
+    },
+    {
+      "id": "course-math",
+      "description": "Mathematics textbook and calculator",
+      "imageUrl": "https://picsum.photos/seed/math/400/300",
+      "imageHint": "mathematics study"
+    },
+    {
+      "id": "course-science",
+      "description": "Science laboratory equipment",
+      "imageUrl": "https://picsum.photos/seed/science/400/300",
+      "imageHint": "science laboratory"
+    },
+    {
+      "id": "achievement-medal",
+      "description": "Gold medal for academic excellence",
+      "imageUrl": "https://picsum.photos/seed/medal/200/200",
+      "imageHint": "gold medal"
+    }
+  ]
+}

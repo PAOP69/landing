@@ -1,3 +1,4 @@
+
 import type {Config} from 'tailwindcss';
 
 export default {
@@ -10,8 +11,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        body: ['Inter', 'sans-serif'],
-        headline: ['Inter', 'sans-serif'],
+        body: ['Open Sans', 'sans-serif'],
+        headline: ['Montserrat', 'sans-serif'],
         code: ['monospace'],
       },
       colors: {
@@ -65,6 +66,12 @@ export default {
           border: 'hsl(var(--sidebar-border))',
           ring: 'hsl(var(--sidebar-ring))',
         },
+        'brand-dark': '#256279',
+        'brand-light': '#b9ded6',
+        'brand-orange': '#f9b252',
+        'brand-cyan': '#00b2ca',
+        'carbon-gray': '#333333',
+        'text-gray': '#666666',
       },
       borderRadius: {
         lg: 'var(--radius)',
