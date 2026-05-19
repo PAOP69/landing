@@ -30,7 +30,7 @@ const nextConfig: NextConfig = {
    * IMPORTANTE: Si tu sitio NO está en el dominio raíz (ej. usuario.github.io/mi-proyecto/),
    * DEBES descomentar la siguiente línea y poner el nombre de tu repositorio:
    */
-  // basePath: '/mi-proyecto',
+  basePath: '/landing',
   
   typescript: {
     ignoreBuildErrors: true,
