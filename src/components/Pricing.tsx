@@ -8,8 +8,8 @@ import { Check, MapPin, Video } from "lucide-react";
 const rates = [
   {
     title: "Consulta Individual Presencial",
-    price: "$15",
-    promo: "(solamente las 3 primeras sesiones)",
+    price: "$25",
+    promo: "",
     modality: "Presencial",
     location: "Centro de Salud Padres Mercedarios",
     icon: MapPin,
@@ -60,9 +60,11 @@ export function Pricing() {
                     <span className="text-4xl font-bold">{rate.price}</span>
                     <span className="text-sm text-muted-foreground uppercase tracking-widest font-bold">USD</span>
                   </div>
-                  <p className="text-[10px] text-accent font-bold uppercase tracking-widest mt-2">
-                    {rate.promo}
-                  </p>
+                  {rate.promo && (
+                    <p className="text-[10px] text-accent font-bold uppercase tracking-widest mt-2">
+                      {rate.promo}
+                    </p>
+                  )}
                 </div>
               </CardHeader>
               <CardContent className="p-10 pt-6 space-y-8">
