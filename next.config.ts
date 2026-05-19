@@ -1,10 +1,15 @@
 import type {NextConfig} from 'next';
 
 const nextConfig: NextConfig = {
-  output: 'export', // Habilita la exportación estática para GitHub Pages
-  trailingSlash: true, // Recomendado para evitar errores 404 en subrutas al recargar
+  /* 
+   * NOTA: 'output: export' ha sido desactivado porque entra en conflicto con las funciones de IA (Server Actions).
+   * Para desplegar en GitHub Pages, recuerda que las funciones de IA no estarán disponibles.
+   */
+  // output: 'export', 
+  
+  trailingSlash: true,
   images: {
-    unoptimized: true, // Requerido ya que GitHub Pages no tiene servidor de optimización de imágenes
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: 'https',
@@ -26,11 +31,12 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-  /**
-   * IMPORTANTE: Si tu sitio NO está en el dominio raíz (ej. usuario.github.io/mi-proyecto/),
-   * DEBES descomentar la siguiente línea y poner el nombre de tu repositorio:
+  
+  /*
+   * Si necesitas desplegar en una subruta de GitHub, descomenta la siguiente línea.
+   * En Firebase Studio, dejarlo como '/' (o comentado) evita errores en el previsualizador.
    */
-  basePath: '/landing',
+  // basePath: '/landing',
   
   typescript: {
     ignoreBuildErrors: true,
