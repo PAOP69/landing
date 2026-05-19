@@ -45,19 +45,18 @@ export function Hero() {
             <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl">
               <div className="absolute inset-0 bg-primary/5 mix-blend-multiply" />
               <Image 
-                src={heroImg?.imageUrl || "https://picsum.photos/seed/psychology-harmony/800/600"} 
-                alt="Salud Mental y Bienestar - Psicología Clínica" 
+                src={heroImg?.imageUrl || "https://picsum.photos/seed/therapy-balance/800/600"} 
+                alt="Psicología Clínica y Salud Mental - Psic. Pablo Ordóñez" 
                 width={800} 
                 height={600} 
-                className="object-cover w-full h-[550px] grayscale-[20%] hover:grayscale-0 transition-all duration-1000"
-                data-ai-hint="psychology abstract"
+                className="object-cover w-full h-[550px] grayscale-[10%] hover:grayscale-0 transition-all duration-1000"
+                data-ai-hint="mental health"
               />
             </div>
             <div className="absolute -bottom-8 -left-8 bg-white/90 backdrop-blur-md p-6 rounded-2xl shadow-xl border border-white/50 max-w-[200px] z-20">
               <p className="text-[10px] font-bold uppercase tracking-widest text-primary mb-1">Ubicación</p>
               <p className="text-xs font-medium leading-relaxed">C. S. Padres Mercedarios</p>
             </div>
-            {/* Elemento decorativo sutil para reforzar el estilo editorial */}
             <div className="absolute -top-12 -right-12 w-48 h-48 bg-accent/5 rounded-full blur-3xl -z-10" />
           </div>
         </div>

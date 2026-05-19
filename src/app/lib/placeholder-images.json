@@ -1,10 +1,11 @@
+
 {
   "placeholderImages": [
     {
       "id": "hero-pablo",
-      "description": "Consultorio moderno y minimalista con luz natural",
-      "imageUrl": "https://picsum.photos/seed/clinic-minimal/1200/800",
-      "imageHint": "minimalist office"
+      "description": "Ilustración profesional y minimalista de una silueta humana abstracta que representa bienestar emocional, equilibrio mental y acompañamiento terapéutico.",
+      "imageUrl": "https://picsum.photos/seed/therapy-balance/1200/800",
+      "imageHint": "mental health"
     },
     {
       "id": "pablo-portrait",

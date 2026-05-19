@@ -2,9 +2,9 @@
   "placeholderImages": [
     {
       "id": "hero-pablo",
-      "description": "Ilustración minimalista y elegante de salud mental, equilibrio y bienestar emocional",
-      "imageUrl": "https://picsum.photos/seed/psychology-harmony/1200/800",
-      "imageHint": "psychology abstract"
+      "description": "Ilustración profesional y minimalista de una silueta humana abstracta que representa bienestar emocional, equilibrio mental y acompañamiento terapéutico.",
+      "imageUrl": "https://picsum.photos/seed/therapy-balance/1200/800",
+      "imageHint": "mental health"
     },
     {
       "id": "pablo-portrait",
